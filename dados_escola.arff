@@ -1,0 +1,16 @@
+@relation dados_escola
+
+@attribute cdAluno numeric
+@attribute nmAluno string
+@attribute mtrAluno string
+@attribute escola string
+@attribute disciplina string
+@attribute professor string
+@attribute dia string
+@attribute horario string
+@attribute nota numeric
+@attribute desempenho {Baixo,Medio,Alto}
+
+@data
+1,Alana,2024001,Escola_Estadual,Banco_de_Dados,Marcos,Segunda,08:00:00,10.0,Alto
+1,Alana,2024001,Escola_Estadual,Engenharia_de_Software,Thiago,Nao_informado,null,7.0,Medio
